@@ -2,8 +2,8 @@ const { Engine, Runner,Render, Bodies, World,Body,Events} = Matter;
 //destructuing the required objects
 // Body object has required methods to work on velocity ,rotation dimension change etc
 
-const cellsHorizontal = 30;
-const cellsVertical = 25;
+const cellsHorizontal = 25;
+const cellsVertical = 20;
 
 const width = window.innerWidth;
 const height = window.innerHeight;
